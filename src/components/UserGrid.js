@@ -54,15 +54,15 @@ const UserGrid = () => {
         <div className="flex justify-between items-center">
           <h5
             data-testid="header"
-            className="text-2xl font-semibold text-neutral-300"
+            className=" max-sm:text-sm text-xl font-semibold text-neutral-300"
           >
             Users Details
           </h5>
-          <p className="text-neutral-400 italic">
+          <p className="text-neutral-400 italic p-0 max-sm:text-sm">
             Powered By
             <span className="text-emerald-500 font-bold tracking-wide">
               {" "}
-              Vrit Technologies
+              VritTech
             </span>{" "}
           </p>
         </div>
